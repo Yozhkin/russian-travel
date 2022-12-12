@@ -2,6 +2,17 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 163%;
-  margin: 0 16px 25px;
+  line-height: 26px;
+  margin: 0;
+}
+
+.place__paragraph:nth-of-type(2n) {
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+    line-height: 29px;
+  }
 }
