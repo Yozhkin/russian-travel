@@ -13,4 +13,4 @@
 * Проект сделан по макету с использованием Figma.
 * Стили сайта прописаны по подходу First Mobile.
 
-Проект можно посмотреть по ссылке: https://github.com/Yozhkin/russian-travel.git
+Проект можно посмотреть по ссылке: https://yozhkin.github.io/russian-travel/
