@@ -1,5 +1,6 @@
 .photo-grid {
   min-width: 288px;
+  box-sizing: border-box;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fill, minmax(288px, auto));

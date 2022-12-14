@@ -5,7 +5,7 @@
   text-align: center;
   text-decoration: none;
   color: #fff;
-  height: calc(0.625 * 100vw);
+  min-height: calc(0.625 * 100vw);
   justify-content: center;
   align-items: center;
 }
@@ -30,6 +30,6 @@
 
 @media screen and (min-width: 1280px) {
   .cover__overlay {
-    height: calc(0.625 * 92.5vw);
+    min-height: calc(0.625 * 92.5vw);
   }
 }

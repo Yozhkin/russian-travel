@@ -13,10 +13,10 @@
 <body class="page">
   <header class="header">
     <div class="header__logo"></div>
-      <nav>
-        <a class="header__lang-link" href="#">Ru</a>
+      <div class="header__lang-links">
+        <a class="header__lang-link header__lang-link_selected" href="#">Ru</a>
         <a class="header__lang-link" href="#">En</a>
-      </nav>
+      </div>
   </header>
 
   <main class="content">
@@ -37,15 +37,15 @@
         и&#160;проехала 20 тысяч километров по&#160;родной стране. Мы выбрали и&#160;описали некоторые интересные места, достойные вашего отпуска.
       </p>
       <ul class="intro__list">
-        <li>Часовых поясов 11</li>
-        <li>Объектов природного наследия ЮНЕСКО 12</li>
-        <li>Объектов культурного наследия ЮНЕСКО 16</li>
-        <li>Природных заповедников 105</li>
-        <li>Аэропортов 241</li>
+        <li>Часовых поясов<span class="intro__span-accent"> 11</span></li>
+        <li>Объектов природного наследия ЮНЕСКО<span class="intro__span-accent"> 12</span></li>
+        <li>Объектов культурного наследия ЮНЕСКО<span class="intro__span-accent"> 16</span></li>
+        <li>Природных заповедников<span class="intro__span-accent"> 105</span></li>
+        <li>Аэропортов<span class="intro__span-accent"> 241</span></li>
       </ul>
     </section>
 
-    <article class="photo-grid">
+    <section class="photo-grid">
       <img src="./images/photo-grid-train.jpg" alt="Купе" class="photo-grid__item">
       <img src="./images/photo-grid-atharva-tulsi.jpg" alt="Горы" class="photo-grid__item">
       <img src="./images/photo-grid-tuman.jpg" alt="Туман" class="photo-grid__item">
@@ -58,7 +58,7 @@
       <img src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка" class="photo-grid__item">
       <img src="./images/photo-grid-baikal-2.jpg" alt="Байкал" class="photo-grid__item">
       <img src="./images/photo-grid-ergaki.jpg" alt="Ергаки" class="photo-grid__item">
-    </article>
+    </section>
 
     <section class="places">
       <div class="place">
@@ -155,12 +155,10 @@
     </section>
 
     <section class="cover">
-      <div class="cover__background">
         <a href="https://stampsy.com/na-elektrichkakh-do-baikala"  target="_blank" class="cover__overlay">
           <h2 class="cover__title">До Байкала «на&#160;собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
         </a>
-      </div>
     </section>
   </main>
 

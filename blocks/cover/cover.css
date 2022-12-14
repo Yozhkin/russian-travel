@@ -1,6 +1,10 @@
 .cover {
   color: #fff;
   margin-top: 66px;
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+  max-width: 1184px;
 }
 
 @media screen and (min-width:768px) {
@@ -17,6 +21,7 @@
 
 @media screen and (min-width:1280px) {
   .cover {
-    padding: 0 48px;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 }
