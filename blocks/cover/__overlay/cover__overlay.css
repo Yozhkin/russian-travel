@@ -17,6 +17,7 @@
   left: 0;
   width: 100%;
   height: 100%;
+  max-width: 1280px;
   background-color: #2A2C2F;
   transition: opacity 1s ease-in-out;
   opacity: 0.3;
@@ -30,6 +31,7 @@
 
 @media screen and (min-width: 1280px) {
   .cover__overlay {
-    min-height: calc(0.625 * 92.5vw);
+    min-height: 740px;
   }
 }
+
